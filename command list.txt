@@ -1,0 +1,506 @@
+Microsoft Windows [Version 10.0.19043.1415]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\OM>pip install dvc
+Collecting dvc
+  Using cached dvc-2.9.2-py3-none-any.whl (389 kB)
+Collecting funcy>=1.14
+  Using cached funcy-1.17-py2.py3-none-any.whl (33 kB)
+Requirement already satisfied: pyparsing>=2.4.7 in c:\users\om\appdata\local\programs\python\python39\lib\site-packages (from dvc) (2.4.7)
+Collecting zc.lockfile>=1.2.1
+  Using cached zc.lockfile-2.0-py2.py3-none-any.whl (9.7 kB)
+Collecting pydot>=1.2.4
+  Using cached pydot-1.4.2-py2.py3-none-any.whl (21 kB)
+Collecting dpath<3,>=2.0.2
+  Using cached dpath-2.0.5-py3-none-any.whl (15 kB)
+Collecting nanotime>=0.5.2
+  Using cached nanotime-0.5.2-py3-none-any.whl
+Collecting shortuuid>=0.5.0
+  Using cached shortuuid-1.0.8-py3-none-any.whl (9.5 kB)
+Collecting ply>=3.9
+  Using cached ply-3.11-py2.py3-none-any.whl (49 kB)
+Requirement already satisfied: pathspec<0.10.0,>=0.9.0 in c:\users\om\appdata\local\programs\python\python39\lib\site-packages (from dvc) (0.9.0)
+Requirement already satisfied: typing-extensions>=3.7.4 in c:\users\om\appdata\local\programs\python\python39\lib\site-packages (from dvc) (4.0.0)
+Collecting networkx>=2.5
+  Using cached networkx-2.6.3-py3-none-any.whl (1.9 MB)
+Requirement already satisfied: tabulate>=0.8.7 in c:\users\om\appdata\roaming\python\python39\site-packages (from dvc) (0.8.9)
+Collecting grandalf==0.6
+  Using cached grandalf-0.6-py3-none-any.whl (31 kB)
+Requirement already satisfied: pyasn1>=0.4.1 in c:\users\om\appdata\local\programs\python\python39\lib\site-packages (from dvc) (0.4.8)
+Requirement already satisfied: requests>=2.22.0 in c:\users\om\appdata\local\programs\python\python39\lib\site-packages (from dvc) (2.26.0)
+Collecting diskcache>=5.2.1
+  Using cached diskcache-5.3.0-py3-none-any.whl (44 kB)
+Requirement already satisfied: tqdm<5,>=4.45.0 in c:\users\om\appdata\local\programs\python\python39\lib\site-packages (from dvc) (4.62.3)
+Requirement already satisfied: packaging>=19.0 in c:\users\om\appdata\local\programs\python\python39\lib\site-packages (from dvc) (21.0)
+Requirement already satisfied: psutil>=5.8.0 in c:\users\om\appdata\roaming\python\python39\site-packages (from dvc) (5.8.0)
+Collecting shtab<2,>=1.3.4
+  Using cached shtab-1.5.2-py2.py3-none-any.whl (14 kB)
+Collecting dictdiffer>=0.8.1
+  Using cached dictdiffer-0.9.0-py2.py3-none-any.whl (16 kB)
+Collecting rich>=10.13.0
+  Using cached rich-10.16.1-py3-none-any.whl (214 kB)
+Requirement already satisfied: colorama>=0.3.9 in c:\users\om\appdata\local\programs\python\python39\lib\site-packages (from dvc) (0.4.4)
+Collecting fsspec[http]>=2021.10.1
+  Using cached fsspec-2021.11.1-py3-none-any.whl (132 kB)
+Collecting configobj>=5.0.6
+  Using cached configobj-5.0.6-py3-none-any.whl
+Collecting scmrepo==0.0.4
+  Using cached scmrepo-0.0.4-py3-none-any.whl (38 kB)
+Collecting pygtrie>=2.3.2
+  Using cached pygtrie-2.4.2-py3-none-any.whl
+Collecting flatten-dict<1,>=0.4.1
+  Using cached flatten_dict-0.4.2-py2.py3-none-any.whl (9.7 kB)
+Collecting voluptuous>=0.11.7
+  Using cached voluptuous-0.12.2-py3-none-any.whl
+Collecting distro>=1.3.0
+  Using cached distro-1.6.0-py2.py3-none-any.whl (19 kB)
+Collecting appdirs>=1.4.3
+  Using cached appdirs-1.4.4-py2.py3-none-any.whl (9.6 kB)
+Collecting aiohttp-retry>=2.4.5
+  Using cached aiohttp_retry-2.4.6-py3-none-any.whl (7.7 kB)
+Requirement already satisfied: ruamel.yaml>=0.17.11 in c:\users\om\appdata\roaming\python\python39\site-packages (from dvc) (0.17.16)
+Requirement already satisfied: toml>=0.10.1 in c:\users\om\appdata\local\programs\python\python39\lib\site-packages (from dvc) (0.10.2)
+Collecting python-benedict>=0.24.2
+  Using cached python_benedict-0.24.3-py3-none-any.whl (41 kB)
+Collecting flufl.lock>=5
+  Using cached flufl.lock-6.0-py3-none-any.whl
+Requirement already satisfied: future in c:\users\om\appdata\local\programs\python\python39\lib\site-packages (from grandalf==0.6->dvc) (0.18.2)
+Collecting pygit2>=1.5.0
+  Using cached pygit2-1.7.2-cp39-cp39-win_amd64.whl (1.2 MB)
+Collecting dulwich>=0.20.23
+  Using cached dulwich-0.20.26-cp39-cp39-win_amd64.whl (489 kB)
+Collecting asyncssh<2.9,>=2.7.1
+  Using cached asyncssh-2.8.1-py3-none-any.whl (287 kB)
+Requirement already satisfied: gitpython>3 in c:\users\om\appdata\local\programs\python\python39\lib\site-packages (from scmrepo==0.0.4->dvc) (3.1.24)
+Requirement already satisfied: aiohttp in c:\users\om\appdata\roaming\python\python39\site-packages (from aiohttp-retry>=2.4.5->dvc) (3.7.4.post0)
+Requirement already satisfied: six in c:\users\om\appdata\local\programs\python\python39\lib\site-packages (from configobj>=5.0.6->dvc) (1.15.0)
+Collecting atpublic
+  Using cached atpublic-2.3-py3-none-any.whl
+Collecting mailchecker
+  Using cached mailchecker-4.1.6-py3-none-any.whl
+Collecting python-slugify
+  Using cached python_slugify-5.0.2-py2.py3-none-any.whl (6.7 kB)
+Requirement already satisfied: python-dateutil in c:\users\om\appdata\local\programs\python\python39\lib\site-packages (from python-benedict>=0.24.2->dvc) (2.8.2)
+Requirement already satisfied: pyyaml in c:\users\om\appdata\local\programs\python\python39\lib\site-packages (from python-benedict>=0.24.2->dvc) (5.4.1)
+Collecting xmltodict
+  Using cached xmltodict-0.12.0-py2.py3-none-any.whl (9.2 kB)
+Collecting ftfy
+  Using cached ftfy-6.0.3-py3-none-any.whl
+Collecting phonenumbers
+  Using cached phonenumbers-8.12.39-py2.py3-none-any.whl (2.6 MB)
+Collecting python-fsutil
+  Using cached python_fsutil-0.5.0-py3-none-any.whl (11 kB)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\om\appdata\local\programs\python\python39\lib\site-packages (from requests>=2.22.0->dvc) (3.2)
+Requirement already satisfied: charset-normalizer~=2.0.0 in c:\users\om\appdata\local\programs\python\python39\lib\site-packages (from requests>=2.22.0->dvc) (2.0.6)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in c:\users\om\appdata\local\programs\python\python39\lib\site-packages (from requests>=2.22.0->dvc) (1.25.11)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\om\appdata\local\programs\python\python39\lib\site-packages (from requests>=2.22.0->dvc) (2021.5.30)
+Collecting commonmark<0.10.0,>=0.9.0
+  Using cached commonmark-0.9.1-py2.py3-none-any.whl (51 kB)
+Requirement already satisfied: pygments<3.0.0,>=2.6.0 in c:\users\om\appdata\local\programs\python\python39\lib\site-packages (from rich>=10.13.0->dvc) (2.10.0)
+Requirement already satisfied: ruamel.yaml.clib>=0.1.2 in c:\users\om\appdata\local\programs\python\python39\lib\site-packages (from ruamel.yaml>=0.17.11->dvc) (0.2.6)
+Requirement already satisfied: setuptools in c:\users\om\appdata\local\programs\python\python39\lib\site-packages (from zc.lockfile>=1.2.1->dvc) (57.4.0)
+Requirement already satisfied: cryptography>=2.8 in c:\users\om\appdata\local\programs\python\python39\lib\site-packages (from asyncssh<2.9,>=2.7.1->scmrepo==0.0.4->dvc) (35.0.0)
+Requirement already satisfied: gitdb<5,>=4.0.1 in c:\users\om\appdata\local\programs\python\python39\lib\site-packages (from gitpython>3->scmrepo==0.0.4->dvc) (4.0.7)
+Requirement already satisfied: cffi>=1.4.0 in c:\users\om\appdata\local\programs\python\python39\lib\site-packages (from pygit2>=1.5.0->scmrepo==0.0.4->dvc) (1.14.6)
+Requirement already satisfied: chardet<5.0,>=2.0 in c:\users\om\appdata\local\programs\python\python39\lib\site-packages (from aiohttp->aiohttp-retry>=2.4.5->dvc) (4.0.0)
+Requirement already satisfied: multidict<7.0,>=4.5 in c:\users\om\appdata\local\programs\python\python39\lib\site-packages (from aiohttp->aiohttp-retry>=2.4.5->dvc) (5.2.0)
+Requirement already satisfied: attrs>=17.3.0 in c:\users\om\appdata\local\programs\python\python39\lib\site-packages (from aiohttp->aiohttp-retry>=2.4.5->dvc) (21.2.0)
+Requirement already satisfied: async-timeout<4.0,>=3.0 in c:\users\om\appdata\local\programs\python\python39\lib\site-packages (from aiohttp->aiohttp-retry>=2.4.5->dvc) (3.0.1)
+Requirement already satisfied: yarl<2.0,>=1.0 in c:\users\om\appdata\local\programs\python\python39\lib\site-packages (from aiohttp->aiohttp-retry>=2.4.5->dvc) (1.6.3)
+Requirement already satisfied: wcwidth in c:\users\om\appdata\local\programs\python\python39\lib\site-packages (from ftfy->python-benedict>=0.24.2->dvc) (0.2.5)
+Collecting text-unidecode>=1.3
+  Using cached text_unidecode-1.3-py2.py3-none-any.whl (78 kB)
+Requirement already satisfied: pycparser in c:\users\om\appdata\local\programs\python\python39\lib\site-packages (from cffi>=1.4.0->pygit2>=1.5.0->scmrepo==0.0.4->dvc) (2.20)
+Requirement already satisfied: smmap<5,>=3.0.1 in c:\users\om\appdata\local\programs\python\python39\lib\site-packages (from gitdb<5,>=4.0.1->gitpython>3->scmrepo==0.0.4->dvc) (4.0.0)
+Installing collected packages: text-unidecode, xmltodict, python-slugify, python-fsutil, pygtrie, pygit2, phonenumbers, mailchecker, funcy, ftfy, fsspec, dulwich, commonmark, atpublic, asyncssh, zc.lockfile, voluptuous, shtab, shortuuid, scmrepo, rich, python-benedict, pydot, ply, networkx, nanotime, grandalf, flufl.lock, flatten-dict, dpath, distro, diskcache, dictdiffer, configobj, appdirs, aiohttp-retry, dvc
+Successfully installed aiohttp-retry-2.4.6 appdirs-1.4.4 asyncssh-2.8.1 atpublic-2.3 commonmark-0.9.1 configobj-5.0.6 dictdiffer-0.9.0 diskcache-5.3.0 distro-1.6.0 dpath-2.0.5 dulwich-0.20.26 dvc-2.9.2 flatten-dict-0.4.2 flufl.lock-6.0 fsspec-2021.11.1 ftfy-6.0.3 funcy-1.17 grandalf-0.6 mailchecker-4.1.6 nanotime-0.5.2 networkx-2.6.3 phonenumbers-8.12.39 ply-3.11 pydot-1.4.2 pygit2-1.7.2 pygtrie-2.4.2 python-benedict-0.24.3 python-fsutil-0.5.0 python-slugify-5.0.2 rich-10.16.1 scmrepo-0.0.4 shortuuid-1.0.8 shtab-1.5.2 text-unidecode-1.3 voluptuous-0.12.2 xmltodict-0.12.0 zc.lockfile-2.0
+WARNING: You are using pip version 21.3; however, version 21.3.1 is available.
+You should consider upgrading via the 'C:\Users\OM\AppData\Local\Programs\Python\Python39\python.exe -m pip install --upgrade pip' command.
+
+C:\Users\OM>python3 -m venv dvc_env
+
+C:\Users\OM>cd dvc_env
+
+C:\Users\OM\dvc_env>cd scripts
+
+C:\Users\OM\dvc_env\Scripts>activate
+
+(dvc_env) C:\Users\OM\dvc_env\Scripts>python -m pip install dvc scikit-learn scikit-image pandas numpy
+Collecting dvc
+  Using cached dvc-2.9.2-py3-none-any.whl (389 kB)
+Collecting scikit-learn
+  Downloading scikit_learn-1.0.1-cp39-cp39-win_amd64.whl (7.2 MB)
+     |████████████████████████████████| 7.2 MB 3.2 MB/s
+Collecting scikit-image
+  Downloading scikit_image-0.19.1-cp39-cp39-win_amd64.whl (12.4 MB)
+     |████████████████████████████████| 12.4 MB 2.2 MB/s
+Collecting pandas
+  Downloading pandas-1.3.5-cp39-cp39-win_amd64.whl (10.2 MB)
+     |████████████████████████████████| 10.2 MB 3.3 MB/s
+Collecting numpy
+  Downloading numpy-1.21.5-cp39-cp39-win_amd64.whl (14.0 MB)
+     |████████████████████████████████| 14.0 MB 3.3 MB/s
+Collecting pygtrie>=2.3.2
+  Using cached pygtrie-2.4.2-py3-none-any.whl
+Collecting nanotime>=0.5.2
+  Using cached nanotime-0.5.2-py3-none-any.whl
+Collecting pydot>=1.2.4
+  Using cached pydot-1.4.2-py2.py3-none-any.whl (21 kB)
+Collecting appdirs>=1.4.3
+  Using cached appdirs-1.4.4-py2.py3-none-any.whl (9.6 kB)
+Collecting voluptuous>=0.11.7
+  Using cached voluptuous-0.12.2-py3-none-any.whl
+Collecting ruamel.yaml>=0.17.11
+  Using cached ruamel.yaml-0.17.17-py3-none-any.whl (109 kB)
+Collecting packaging>=19.0
+  Downloading packaging-21.3-py3-none-any.whl (40 kB)
+     |████████████████████████████████| 40 kB ...
+Collecting shtab<2,>=1.3.4
+  Using cached shtab-1.5.2-py2.py3-none-any.whl (14 kB)
+Collecting typing-extensions>=3.7.4
+  Downloading typing_extensions-4.0.1-py3-none-any.whl (22 kB)
+Collecting funcy>=1.14
+  Using cached funcy-1.17-py2.py3-none-any.whl (33 kB)
+Collecting flatten-dict<1,>=0.4.1
+  Using cached flatten_dict-0.4.2-py2.py3-none-any.whl (9.7 kB)
+Collecting dpath<3,>=2.0.2
+  Using cached dpath-2.0.5-py3-none-any.whl (15 kB)
+Collecting networkx>=2.5
+  Using cached networkx-2.6.3-py3-none-any.whl (1.9 MB)
+Collecting psutil>=5.8.0
+  Using cached psutil-5.8.0-cp39-cp39-win_amd64.whl (246 kB)
+Collecting diskcache>=5.2.1
+  Using cached diskcache-5.3.0-py3-none-any.whl (44 kB)
+Collecting pyparsing>=2.4.7
+  Downloading pyparsing-3.0.6-py3-none-any.whl (97 kB)
+     |████████████████████████████████| 97 kB 2.3 MB/s
+Collecting distro>=1.3.0
+  Using cached distro-1.6.0-py2.py3-none-any.whl (19 kB)
+Collecting colorama>=0.3.9
+  Using cached colorama-0.4.4-py2.py3-none-any.whl (16 kB)
+Collecting grandalf==0.6
+  Using cached grandalf-0.6-py3-none-any.whl (31 kB)
+Collecting shortuuid>=0.5.0
+  Using cached shortuuid-1.0.8-py3-none-any.whl (9.5 kB)
+Collecting tqdm<5,>=4.45.0
+  Using cached tqdm-4.62.3-py2.py3-none-any.whl (76 kB)
+Collecting fsspec[http]>=2021.10.1
+  Using cached fsspec-2021.11.1-py3-none-any.whl (132 kB)
+Collecting pathspec<0.10.0,>=0.9.0
+  Using cached pathspec-0.9.0-py2.py3-none-any.whl (31 kB)
+Collecting aiohttp-retry>=2.4.5
+  Using cached aiohttp_retry-2.4.6-py3-none-any.whl (7.7 kB)
+Collecting pyasn1>=0.4.1
+  Using cached pyasn1-0.4.8-py2.py3-none-any.whl (77 kB)
+Collecting configobj>=5.0.6
+  Using cached configobj-5.0.6-py3-none-any.whl
+Collecting flufl.lock>=5
+  Using cached flufl.lock-6.0-py3-none-any.whl
+Collecting zc.lockfile>=1.2.1
+  Using cached zc.lockfile-2.0-py2.py3-none-any.whl (9.7 kB)
+Collecting tabulate>=0.8.7
+  Using cached tabulate-0.8.9-py3-none-any.whl (25 kB)
+Collecting requests>=2.22.0
+  Using cached requests-2.26.0-py2.py3-none-any.whl (62 kB)
+Collecting toml>=0.10.1
+  Using cached toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Collecting dictdiffer>=0.8.1
+  Using cached dictdiffer-0.9.0-py2.py3-none-any.whl (16 kB)
+Collecting rich>=10.13.0
+  Using cached rich-10.16.1-py3-none-any.whl (214 kB)
+Collecting scmrepo==0.0.4
+  Using cached scmrepo-0.0.4-py3-none-any.whl (38 kB)
+Collecting ply>=3.9
+  Using cached ply-3.11-py2.py3-none-any.whl (49 kB)
+Collecting python-benedict>=0.24.2
+  Using cached python_benedict-0.24.3-py3-none-any.whl (41 kB)
+Collecting future
+  Using cached future-0.18.2-py3-none-any.whl
+Collecting pygit2>=1.5.0
+  Using cached pygit2-1.7.2-cp39-cp39-win_amd64.whl (1.2 MB)
+Collecting asyncssh<2.9,>=2.7.1
+  Using cached asyncssh-2.8.1-py3-none-any.whl (287 kB)
+Collecting dulwich>=0.20.23
+  Using cached dulwich-0.20.26-cp39-cp39-win_amd64.whl (489 kB)
+Collecting gitpython>3
+  Using cached GitPython-3.1.24-py3-none-any.whl (180 kB)
+Collecting scipy>=1.1.0
+  Downloading scipy-1.7.3-cp39-cp39-win_amd64.whl (34.3 MB)
+     |████████████████████████████████| 34.3 MB 3.3 MB/s
+Collecting joblib>=0.11
+  Using cached joblib-1.1.0-py2.py3-none-any.whl (306 kB)
+Collecting threadpoolctl>=2.0.0
+  Using cached threadpoolctl-3.0.0-py3-none-any.whl (14 kB)
+Collecting pillow!=7.1.0,!=7.1.1,!=8.3.0,>=6.1.0
+  Downloading Pillow-8.4.0-cp39-cp39-win_amd64.whl (3.2 MB)
+     |████████████████████████████████| 3.2 MB 3.3 MB/s
+Collecting PyWavelets>=1.1.1
+  Downloading PyWavelets-1.2.0-cp39-cp39-win_amd64.whl (4.2 MB)
+     |████████████████████████████████| 4.2 MB 6.8 MB/s
+Collecting imageio>=2.4.1
+  Downloading imageio-2.13.4-py3-none-any.whl (3.3 MB)
+     |████████████████████████████████| 3.3 MB 6.4 MB/s
+Collecting tifffile>=2019.7.26
+  Downloading tifffile-2021.11.2-py3-none-any.whl (178 kB)
+     |████████████████████████████████| 178 kB 2.2 MB/s
+Collecting pytz>=2017.3
+  Using cached pytz-2021.3-py2.py3-none-any.whl (503 kB)
+Collecting python-dateutil>=2.7.3
+  Using cached python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+Collecting aiohttp
+  Downloading aiohttp-3.8.1-cp39-cp39-win_amd64.whl (554 kB)
+     |████████████████████████████████| 554 kB 2.2 MB/s
+Collecting cryptography>=2.8
+  Using cached cryptography-36.0.1-cp36-abi3-win_amd64.whl (2.2 MB)
+Collecting six
+  Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting cffi>=1.12
+  Using cached cffi-1.15.0-cp39-cp39-win_amd64.whl (180 kB)
+Collecting pycparser
+  Downloading pycparser-2.21-py2.py3-none-any.whl (118 kB)
+     |████████████████████████████████| 118 kB 6.8 MB/s
+Collecting urllib3>=1.24.1
+  Using cached urllib3-1.26.7-py2.py3-none-any.whl (138 kB)
+Collecting certifi
+  Using cached certifi-2021.10.8-py2.py3-none-any.whl (149 kB)
+Collecting atpublic
+  Using cached atpublic-2.3-py3-none-any.whl
+Collecting gitdb<5,>=4.0.1
+  Using cached gitdb-4.0.9-py3-none-any.whl (63 kB)
+Collecting smmap<6,>=3.0.1
+  Downloading smmap-5.0.0-py3-none-any.whl (24 kB)
+Collecting ftfy
+  Using cached ftfy-6.0.3-py3-none-any.whl
+Collecting python-slugify
+  Using cached python_slugify-5.0.2-py2.py3-none-any.whl (6.7 kB)
+Collecting mailchecker
+  Using cached mailchecker-4.1.6-py3-none-any.whl
+Collecting pyyaml
+  Using cached PyYAML-6.0-cp39-cp39-win_amd64.whl (151 kB)
+Collecting python-fsutil
+  Using cached python_fsutil-0.5.0-py3-none-any.whl (11 kB)
+Collecting phonenumbers
+  Using cached phonenumbers-8.12.39-py2.py3-none-any.whl (2.6 MB)
+Collecting xmltodict
+  Using cached xmltodict-0.12.0-py2.py3-none-any.whl (9.2 kB)
+Collecting idna<4,>=2.5
+  Using cached idna-3.3-py3-none-any.whl (61 kB)
+Collecting charset-normalizer~=2.0.0
+  Downloading charset_normalizer-2.0.9-py3-none-any.whl (39 kB)
+Collecting commonmark<0.10.0,>=0.9.0
+  Using cached commonmark-0.9.1-py2.py3-none-any.whl (51 kB)
+Collecting pygments<3.0.0,>=2.6.0
+  Using cached Pygments-2.10.0-py3-none-any.whl (1.0 MB)
+Collecting ruamel.yaml.clib>=0.1.2
+  Using cached ruamel.yaml.clib-0.2.6-cp39-cp39-win_amd64.whl (118 kB)
+Requirement already satisfied: setuptools in c:\users\om\dvc_env\lib\site-packages (from zc.lockfile>=1.2.1->dvc) (58.1.0)
+Collecting aiosignal>=1.1.2
+  Using cached aiosignal-1.2.0-py3-none-any.whl (8.2 kB)
+Collecting frozenlist>=1.1.1
+  Using cached frozenlist-1.2.0-cp39-cp39-win_amd64.whl (83 kB)
+Collecting yarl<2.0,>=1.0
+  Using cached yarl-1.7.2-cp39-cp39-win_amd64.whl (122 kB)
+Collecting attrs>=17.3.0
+  Using cached attrs-21.2.0-py2.py3-none-any.whl (53 kB)
+Collecting multidict<7.0,>=4.5
+  Using cached multidict-5.2.0-cp39-cp39-win_amd64.whl (45 kB)
+Collecting async-timeout<5.0,>=4.0.0a3
+  Downloading async_timeout-4.0.2-py3-none-any.whl (5.8 kB)
+Collecting wcwidth
+  Using cached wcwidth-0.2.5-py2.py3-none-any.whl (30 kB)
+Collecting text-unidecode>=1.3
+  Using cached text_unidecode-1.3-py2.py3-none-any.whl (78 kB)
+Installing collected packages: pycparser, urllib3, smmap, multidict, idna, frozenlist, charset-normalizer, cffi, certifi, yarl, wcwidth, typing-extensions, text-unidecode, six, requests, gitdb, cryptography, attrs, async-timeout, aiosignal, xmltodict, toml, ruamel.yaml.clib, pyyaml, python-slugify, python-fsutil, python-dateutil, pyparsing, pygtrie, pygments, pygit2, psutil, pillow, phonenumbers, pathspec, numpy, mailchecker, gitpython, future, funcy, ftfy, fsspec, dulwich, commonmark, colorama, atpublic, asyncssh, aiohttp, zc.lockfile, voluptuous, tqdm, tifffile, threadpoolctl, tabulate, shtab, shortuuid, scmrepo, scipy, ruamel.yaml, rich, PyWavelets, pytz, python-benedict, pydot, pyasn1, ply, packaging, networkx, nanotime, joblib, imageio, grandalf, flufl.lock, flatten-dict, dpath, distro, diskcache, dictdiffer, configobj, appdirs, aiohttp-retry, scikit-learn, scikit-image, pandas, dvc
+Successfully installed PyWavelets-1.2.0 aiohttp-3.8.1 aiohttp-retry-2.4.6 aiosignal-1.2.0 appdirs-1.4.4 async-timeout-4.0.2 asyncssh-2.8.1 atpublic-2.3 attrs-21.2.0 certifi-2021.10.8 cffi-1.15.0 charset-normalizer-2.0.9 colorama-0.4.4 commonmark-0.9.1 configobj-5.0.6 cryptography-36.0.1 dictdiffer-0.9.0 diskcache-5.3.0 distro-1.6.0 dpath-2.0.5 dulwich-0.20.26 dvc-2.9.2 flatten-dict-0.4.2 flufl.lock-6.0 frozenlist-1.2.0 fsspec-2021.11.1 ftfy-6.0.3 funcy-1.17 future-0.18.2 gitdb-4.0.9 gitpython-3.1.24 grandalf-0.6 idna-3.3 imageio-2.13.4 joblib-1.1.0 mailchecker-4.1.6 multidict-5.2.0 nanotime-0.5.2 networkx-2.6.3 numpy-1.21.5 packaging-21.3 pandas-1.3.5 pathspec-0.9.0 phonenumbers-8.12.39 pillow-8.4.0 ply-3.11 psutil-5.8.0 pyasn1-0.4.8 pycparser-2.21 pydot-1.4.2 pygit2-1.7.2 pygments-2.10.0 pygtrie-2.4.2 pyparsing-3.0.6 python-benedict-0.24.3 python-dateutil-2.8.2 python-fsutil-0.5.0 python-slugify-5.0.2 pytz-2021.3 pyyaml-6.0 requests-2.26.0 rich-10.16.1 ruamel.yaml-0.17.17 ruamel.yaml.clib-0.2.6 scikit-image-0.19.1 scikit-learn-1.0.1 scipy-1.7.3 scmrepo-0.0.4 shortuuid-1.0.8 shtab-1.5.2 six-1.16.0 smmap-5.0.0 tabulate-0.8.9 text-unidecode-1.3 threadpoolctl-3.0.0 tifffile-2021.11.2 toml-0.10.2 tqdm-4.62.3 typing-extensions-4.0.1 urllib3-1.26.7 voluptuous-0.12.2 wcwidth-0.2.5 xmltodict-0.12.0 yarl-1.7.2 zc.lockfile-2.0
+WARNING: You are using pip version 21.2.4; however, version 21.3.1 is available.
+You should consider upgrading via the 'C:\Users\OM\dvc_env\Scripts\python.exe -m pip install --upgrade pip' command.
+
+(dvc_env) C:\Users\OM\dvc_env\Scripts>git clone https://github.com/Hemant-hash512/data-version-control
+Cloning into 'data-version-control'...
+info: please complete authentication in your browser...
+remote: Repository not found.
+fatal: repository 'https://github.com/Hemant-hash512/data-version-control/' not found
+
+(dvc_env) C:\Users\OM\dvc_env\Scripts>git clone https://github.com/Hemant-hash512/data-version-control
+Cloning into 'data-version-control'...
+info: please complete authentication in your browser...
+remote: Repository not found.
+fatal: repository 'https://github.com/Hemant-hash512/data-version-control/' not found
+
+(dvc_env) C:\Users\OM\dvc_env\Scripts>git clone git@github.com:Hemant-hash512/data-version-control.git
+Cloning into 'data-version-control'...
+The authenticity of host 'github.com (13.234.176.102)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+(dvc_env) C:\Users\OM\dvc_env\Scripts>gh repo clone Hemant-hash512/data-version-control
+'gh' is not recognized as an internal or external command,
+operable program or batch file.
+
+(dvc_env) C:\Users\OM\dvc_env\Scripts>git repo clone Hemant-hash512/data-version-control
+git: 'repo' is not a git command. See 'git --help'.
+
+The most similar commands are
+        grep
+        reflog
+        remote
+        repack
+
+(dvc_env) C:\Users\OM\dvc_env\Scripts>git clone Hemant-hash512/data-version-control
+fatal: repository 'Hemant-hash512/data-version-control' does not exist
+
+(dvc_env) C:\Users\OM\dvc_env\Scripts>git clone https://github.com/Hemant-hash512/data-version-control.git
+Cloning into 'data-version-control'...
+remote: Enumerating objects: 22, done.
+remote: Total 22 (delta 0), reused 0 (delta 0), pack-reused 22
+Receiving objects: 100% (22/22), 6.29 KiB | 920.00 KiB/s, done.
+Resolving deltas: 100% (3/3), done.
+
+(dvc_env) C:\Users\OM\dvc_env\Scripts>cd data-version-control
+
+(dvc_env) C:\Users\OM\dvc_env\Scripts\data-version-control>git checkout -b "first_experiment"
+Switched to a new branch 'first_experiment'
+
+(dvc_env) C:\Users\OM\dvc_env\Scripts\data-version-control>dvc init
+Initialized DVC repository.
+
+You can now commit the changes to git.
+
++---------------------------------------------------------------------+
+|                                                                     |
+|        DVC has enabled anonymous aggregate usage analytics.         |
+|     Read the analytics documentation (and how to opt-out) here:     |
+|             <https://dvc.org/doc/user-guide/analytics>              |
+|                                                                     |
++---------------------------------------------------------------------+
+
+What's next?
+------------
+- Check out the documentation: <https://dvc.org/doc>
+- Get help and share ideas: <https://dvc.org/chat>
+- Star us on GitHub: <https://github.com/iterative/dvc>
+
+(dvc_env) C:\Users\OM\dvc_env\Scripts\data-version-control>dvc remote add -d C:\Users\OM\dvc_env\Scripts\dvc_remote
+ERROR: the following arguments are required: url
+usage: dvc remote add [-h] [--global | --system | --project | --local] [-q | -v] [-d] [-f] name url
+
+Add a new data remote.
+Documentation: <https://man.dvc.org/remote/add>
+
+positional arguments:
+  name           Name of the remote
+  url            Remote location. See full list of supported URLs at <https://man.dvc.org/remote>
+
+optional arguments:
+  -h, --help     show this help message and exit
+  --global       Use global config.
+  --system       Use system config.
+  --project      Use project config (.dvc/config).
+  --local        Use local config (.dvc/config.local).
+  -q, --quiet    Be quiet.
+  -v, --verbose  Be verbose.
+  -d, --default  Set as default remote.
+  -f, --force    Force overwriting existing configs
+
+(dvc_env) C:\Users\OM\dvc_env\Scripts\data-version-control>dvc remote add -d C:\Users\OM\dvc_env\Scripts\dvc_remote
+ERROR: the following arguments are required: url
+usage: dvc remote add [-h] [--global | --system | --project | --local] [-q | -v] [-d] [-f] name url
+
+Add a new data remote.
+Documentation: <https://man.dvc.org/remote/add>
+
+positional arguments:
+  name           Name of the remote
+  url            Remote location. See full list of supported URLs at <https://man.dvc.org/remote>
+
+optional arguments:
+  -h, --help     show this help message and exit
+  --global       Use global config.
+  --system       Use system config.
+  --project      Use project config (.dvc/config).
+  --local        Use local config (.dvc/config.local).
+  -q, --quiet    Be quiet.
+  -v, --verbose  Be verbose.
+  -d, --default  Set as default remote.
+  -f, --force    Force overwriting existing configs
+
+(dvc_env) C:\Users\OM\dvc_env\Scripts\data-version-control>dvc remote add -d C:/Users/OM/dvc_env/Scripts/dvc_remote
+ERROR: the following arguments are required: url
+usage: dvc remote add [-h] [--global | --system | --project | --local] [-q | -v] [-d] [-f] name url
+
+Add a new data remote.
+Documentation: <https://man.dvc.org/remote/add>
+
+positional arguments:
+  name           Name of the remote
+  url            Remote location. See full list of supported URLs at <https://man.dvc.org/remote>
+
+optional arguments:
+  -h, --help     show this help message and exit
+  --global       Use global config.
+  --system       Use system config.
+  --project      Use project config (.dvc/config).
+  --local        Use local config (.dvc/config.local).
+  -q, --quiet    Be quiet.
+  -v, --verbose  Be verbose.
+  -d, --default  Set as default remote.
+  -f, --force    Force overwriting existing configs
+
+(dvc_env) C:\Users\OM\dvc_env\Scripts\data-version-control>dvc remote add -d myremote  C:/Users/OM/dvc_env/Scripts/dvc_remote
+Setting 'myremote' as a default remote.
+
+(dvc_env) C:\Users\OM\dvc_env\Scripts\data-version-control>dvc add data/raw/train
+100% Adding...|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████|1/1 [02:24, 144.42s/file]
+
+To track the changes with git, run:
+
+    git add 'data\raw\train.dvc' 'data\raw\.gitignore'
+
+To enable auto staging, run:
+
+        dvc config core.autostage true
+
+(dvc_env) C:\Users\OM\dvc_env\Scripts\data-version-control>dvc add data/raw/val
+100% Adding...|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████|1/1 [01:22, 82.44s/file]
+
+To track the changes with git, run:
+
+    git add 'data\raw\val.dvc' 'data\raw\.gitignore'
+
+To enable auto staging, run:
+
+        dvc config core.autostage true
+
+(dvc_env) C:\Users\OM\dvc_env\Scripts\data-version-control>git add --all
+
+(dvc_env) C:\Users\OM\dvc_env\Scripts\data-version-control>git commit -m "First commit with setup and DVC files"
+[first_experiment 549d6dd] First commit with setup and DVC files
+ 12 files changed, 531 insertions(+)
+ create mode 100644 .dvc/.gitignore
+ create mode 100644 .dvc/config
+ create mode 100644 .dvc/plots/confusion.json
+ create mode 100644 .dvc/plots/confusion_normalized.json
+ create mode 100644 .dvc/plots/linear.json
+ create mode 100644 .dvc/plots/scatter.json
+ create mode 100644 .dvc/plots/simple.json
+ create mode 100644 .dvc/plots/smooth.json
+ create mode 100644 .dvcignore
+ create mode 100644 data/raw/train.dvc
+ create mode 100644 data/raw/val.dvc
+
+(dvc_env) C:\Users\OM\dvc_env\Scripts\data-version-control>git status
+On branch first_experiment
+nothing to commit, working tree clean
+
+(dvc_env) C:\Users\OM\dvc_env\Scripts\data-version-control>git status
+On branch first_experiment
+nothing to commit, working tree clean
+
+(dvc_env) C:\Users\OM\dvc_env\Scripts\data-version-control>
