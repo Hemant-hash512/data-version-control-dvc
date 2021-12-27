@@ -8,7 +8,7 @@ df.drop('has_diabetes', inplace=True, axis=1)
 diabetes_map = {True:1, False:0}
 df['diabetes'] = df['diabetes'].map(diabetes_map)
 #print(df.head())
-df.drop('thickness', inplace=True, axis=1)
+df.drop('insulin', inplace=True, axis=1)
 df.to_csv('data\data1.csv')
 print(df.head())
 
