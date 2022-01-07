@@ -2,4 +2,5 @@
     autostage = true
     remote = myremote
 ['remote "myremote"']
-    url = /cloud-storage/dvcstore
+    url = gs://dvc_bucket
+    projectname = myproject

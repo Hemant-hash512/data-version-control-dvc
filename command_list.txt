@@ -1,0 +1,5 @@
+1. dvc add data/data1.csv 
+2. git add process.py
+3. git commit -m "few"
+4. git push
+5. dvc push
