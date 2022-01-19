@@ -1,4 +1,4 @@
 outs:
-- md5: 45ea179d9efba3544d1a2998be330a4c
-  size: 569
+- md5: 52d67faeab794599875e170a77398f72
+  size: 492
   path: target_table.csv
